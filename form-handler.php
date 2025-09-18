@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'info@gmail.com';
+$email_from = 'https://mzhadiger.github.io/uniWeb/';
 
 $email_subject = 'New Form Submission';
 
@@ -23,5 +23,6 @@ $headers = "Reply-To: $visitor_email \r\n";
 mail($to,$email_subject,$email_body,$headers);
 
 header("Location: contact.html");
+
 
 ?>
