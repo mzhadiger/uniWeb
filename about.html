@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, inital-scale=1.0">
+        <title>Univerity Website Design - Easy Tutorials</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+            <h1>About Us</h1>    
+        </section>
+
+<!-- -------- about us content -------- -->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>
+            <p>with over 1.2 million students enrolled across 150+ campuses worldwide. Our academic reach spans over 200 countries, and we offer more than 300 degree programs across various fields of study. With over 50,000 faculty members dedicated to fostering innovation and academic excellence, Eduford University is not just a place of learning—it’s a global community. Every year, more than 100,000 graduates join the ranks of our alumni, contributing to a network of over 3 million professionals worldwide. Our cutting-edge research centers generate over $500 million in funding annually, paving the way for groundbreaking discoveries and advancements.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>
+
+</section>
+
+
+
+
+        
+<!------ Footer ------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Eduford University is dedicated to providing world-class education that prepares students for success in a global society. With a tradition of academic excellence, we offer diverse undergraduate and graduate programs that equip students with the skills needed for tomorrow's challenges. Our inclusive campus fosters innovation and personal growth, empowering students to become leaders and make a meaningful impact.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Mukhammedali Zhadiger</p>
+</section>
+
+
+<!------JavaScript for Toggle Menu ------>
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+        
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+

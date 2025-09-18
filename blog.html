@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, inital-scale=1.0">
+        <title>Univerity Website Design - Easy Tutorials</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+            <h1>Our Certificate & Online Programs For 2025</h1>    
+        </section>
+
+<!-- -------- BLOG PAGE CONTENT -------- -->
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & Online Programs For 2025</h2>
+            <p>1. Professional Development in Technology (Certified by Eduford)
+                Enroll in our cutting-edge technology certificate program and gain hands-on experience in fields like Artificial Intelligence, Cybersecurity, and Data Science. With over 1,500 students graduating each year, this program equips professionals with in-demand skills for the rapidly evolving tech industry.</p>
+            <br>
+            <p>2. Business Management Certificate
+                Our Business Management Certificate prepares you for leadership roles in just 6 months. Join a community of over 2,000 alumni who have advanced their careers across industries. You'll master strategic decision-making, financial analysis, and team leadership—all online, at your own pace.</p>
+            <br>
+            <p>3. Healthcare Administration Online Program
+                Looking to break into the healthcare industry? Eduford’s Healthcare Administration program offers an in-depth curriculum focusing on leadership, policy, and patient care management. With flexible online learning, over 3,000 students have successfully transitioned into leadership roles in healthcare facilities.</p>
+            <br>
+            <p>4. Digital Marketing Certification
+                Stay ahead in the digital landscape with our Digital Marketing Certification program. With 500+ hours of learning materials and live webinars, students will learn how to drive successful marketing campaigns using SEO, social media, and analytics. Over 1,200 students have already advanced their careers with this program in the last year alone.</p>
+
+
+            <div class="comment-box">
+
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+
+            </div>
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+        
+<!------ Footer ------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Eduford University is dedicated to providing world-class education that prepares students for success in a global society. With a tradition of academic excellence, we offer diverse undergraduate and graduate programs that equip students with the skills needed for tomorrow's challenges. Our inclusive campus fosters innovation and personal growth, empowering students to become leaders and make a meaningful impact.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Mukhammedali Zhadiger</p>
+</section>
+
+
+<!------JavaScript for Toggle Menu ------>
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+        
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
