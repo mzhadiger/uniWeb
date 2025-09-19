@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'https://mzhadiger.github.io/uniWeb/';
+$email_from = 'info@mzhadiger.github.io/uniWeb/';
 
 $email_subject = 'New Form Submission';
 
@@ -26,3 +26,4 @@ header("Location: contact.html");
 
 
 ?>
+
